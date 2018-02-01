@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components <App /> matches snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Header
+          props={Object {}}
+/>,
+        <p
+          className="app-intro"
+>
+          To get started, edit 
+          <code>
+                    src/App.js
+          </code>
+           and save to reload.
+</p>,
+        <Route
+          component={[Function]}
+          path="/admin/sites"
+/>,
+        <Route
+          component={[Function]}
+          path="/admin/users"
+/>,
+      ],
+      "className": "app",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "props": Object {},
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "To get started, edit ",
+            <code>
+              src/App.js
+</code>,
+            " and save to reload.",
+          ],
+          "className": "app-intro",
+        },
+        "ref": null,
+        "rendered": Array [
+          "To get started, edit ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "src/App.js",
+            },
+            "ref": null,
+            "rendered": "src/App.js",
+            "type": "code",
+          },
+          " and save to reload.",
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "component": [Function],
+          "path": "/admin/sites",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "component": [Function],
+          "path": "/admin/users",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Header
+            props={Object {}}
+/>,
+          <p
+            className="app-intro"
+>
+            To get started, edit 
+            <code>
+                        src/App.js
+            </code>
+             and save to reload.
+</p>,
+          <Route
+            component={[Function]}
+            path="/admin/sites"
+/>,
+          <Route
+            component={[Function]}
+            path="/admin/users"
+/>,
+        ],
+        "className": "app",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "props": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "To get started, edit ",
+              <code>
+                src/App.js
+</code>,
+              " and save to reload.",
+            ],
+            "className": "app-intro",
+          },
+          "ref": null,
+          "rendered": Array [
+            "To get started, edit ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "src/App.js",
+              },
+              "ref": null,
+              "rendered": "src/App.js",
+              "type": "code",
+            },
+            " and save to reload.",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
+            "path": "/admin/sites",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
+            "path": "/admin/users",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
