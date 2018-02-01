@@ -2,7 +2,7 @@
   "name": "pf-user-client",
   "author": "Ron Dyck <rond@webbtech.net> (http://webbtech.net/)",
   "repository": "https://github.com/pulpfree/pf-user-client",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "dependencies": {
     "react": "^16.2.0",
