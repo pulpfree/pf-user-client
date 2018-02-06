@@ -2,19 +2,17 @@ import React, { Component } from 'react'
 
 import { Redirect, Route } from 'react-router-dom'
 
-
+import './app.sass'
+import Header from './Header'
 import Sites from '../../site/components/Sites'
 import Users from '../../user/components/Users'
-
-import Header from './Header'
-import './app.sass'
 
 class App extends Component {
 
 
   render() {
 
-    let isAuthed = false
+    let isAuthed = true
 
     // console.log('location:', this.props.location)
     // console.log('split:', this.props.location.pathname.split('/'))

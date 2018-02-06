@@ -2,8 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 // import createHistory from 'history/createBrowserHistory'
-
+import { Provider } from 'react-redux'
 import { BrowserRouter as Router, Redirect, Switch, Route } from 'react-router-dom'
+import { createStore } from 'redux'
 
 import './index.sass'
 
@@ -14,6 +15,7 @@ import NoMatch from './modules/app/components/NoMatch'
 import Login from './modules/auth/components/Login'
 
 import registerServiceWorker from './registerServiceWorker'
+
 
 // const history = createHistory()
 
