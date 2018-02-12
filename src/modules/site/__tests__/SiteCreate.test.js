@@ -23,6 +23,8 @@ describe('SiteCreate', () => {
 
   it('always renders a component', () => {
     expect(siteCreateC().find('div').length).toBeGreaterThan(0)
+    // const wrapper = mount(/*~*/);
+    // console.log(siteCreateC().debug());
   })
 
   it('matches snapshot', () => {

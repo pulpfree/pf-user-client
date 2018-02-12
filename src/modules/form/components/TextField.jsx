@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 import { TextField } from 'react-md'
 
-const renderTextField = ({ defaultValue, input, meta: { touched, error }, ...others }) => (
+const RenderTextField = ({ defaultValue, input, meta: { touched, error }, ...others }) => (
   <TextField
     {...input}
     {...others}
@@ -13,10 +13,10 @@ const renderTextField = ({ defaultValue, input, meta: { touched, error }, ...oth
   />
 )
 
-renderTextField.propTypes = {
+RenderTextField.propTypes = {
   defaultValue:  PropTypes.string,
   input:  PropTypes.object,
   meta:   PropTypes.object,
 }
 
-export default renderTextField
+export default RenderTextField
