@@ -1,18 +1,15 @@
 /* eslint no-undef: "off" */
 import React from 'react'
 
-import { mount } from 'enzyme'
+import { shallow } from 'enzyme'
 
 import Login from '../components/Login'
 
 describe('Login', () => {
-  let props
   let mountedC
   const loginC = () => {
     if (!mountedC) {
-      mountedC = mount(
-        <Login {...props} />
-      )
+      mountedC = shallow(<Login />)
     }
     return mountedC
   }

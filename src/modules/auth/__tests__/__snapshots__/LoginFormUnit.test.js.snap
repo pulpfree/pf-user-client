@@ -1,0 +1,292 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginForm matches snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <LoginForm
+    fields={
+        Object {
+            "email": Object {
+              "error": null,
+              "touched": false,
+              "value": "me@there.co",
+            },
+          }
+    }
+    handleSubmit={[Function]}
+    onSave={[Function]}
+    pristine={false}
+    reset={[Function]}
+    submitting={false}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Field
+          autoFocus={true}
+          className="md-cell md-cell--12 md-cell--bottom form-field"
+          component={[Function]}
+          id="email"
+          label="Email"
+          name="email"
+          placeholder="Enter email address"
+          required={true}
+          type="email"
+          validate={[Function]}
+/>,
+        <Field
+          className="md-cell md-cell--12 md-cell--bottom form-field"
+          component={[Function]}
+          id="password"
+          label="Password"
+          name="password"
+          placeholder="Enter your password"
+          required={true}
+          style={
+                    Object {
+                              "height": "90px",
+                            }
+          }
+          type="password"
+          validate={[Function]}
+/>,
+        <withInk(withTooltip(Button))
+          className="md-cell md-cell--12 md-cell--bottom"
+          disabled={false}
+          id="submit"
+          inkTransitionEnterTimeout={450}
+          inkTransitionLeaveTimeout={300}
+          inkTransitionOverlap={150}
+          raised={true}
+          secondary={true}
+          style={
+                    Object {
+                              "marginTop": "20px",
+                            }
+          }
+          type="submit"
+>
+          Submit
+</withInk(withTooltip(Button))>,
+      ],
+      "onSubmit": [Function],
+      "padding": "0 30px 30px",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "autoFocus": true,
+          "className": "md-cell md-cell--12 md-cell--bottom form-field",
+          "component": [Function],
+          "id": "email",
+          "label": "Email",
+          "name": "email",
+          "placeholder": "Enter email address",
+          "required": true,
+          "type": "email",
+          "validate": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "className": "md-cell md-cell--12 md-cell--bottom form-field",
+          "component": [Function],
+          "id": "password",
+          "label": "Password",
+          "name": "password",
+          "placeholder": "Enter your password",
+          "required": true,
+          "style": Object {
+            "height": "90px",
+          },
+          "type": "password",
+          "validate": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "Submit",
+          "className": "md-cell md-cell--12 md-cell--bottom",
+          "disabled": false,
+          "id": "submit",
+          "inkTransitionEnterTimeout": 450,
+          "inkTransitionLeaveTimeout": 300,
+          "inkTransitionOverlap": 150,
+          "raised": true,
+          "secondary": true,
+          "style": Object {
+            "marginTop": "20px",
+          },
+          "type": "submit",
+        },
+        "ref": null,
+        "rendered": "Submit",
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Field
+            autoFocus={true}
+            className="md-cell md-cell--12 md-cell--bottom form-field"
+            component={[Function]}
+            id="email"
+            label="Email"
+            name="email"
+            placeholder="Enter email address"
+            required={true}
+            type="email"
+            validate={[Function]}
+/>,
+          <Field
+            className="md-cell md-cell--12 md-cell--bottom form-field"
+            component={[Function]}
+            id="password"
+            label="Password"
+            name="password"
+            placeholder="Enter your password"
+            required={true}
+            style={
+                        Object {
+                                    "height": "90px",
+                                  }
+            }
+            type="password"
+            validate={[Function]}
+/>,
+          <withInk(withTooltip(Button))
+            className="md-cell md-cell--12 md-cell--bottom"
+            disabled={false}
+            id="submit"
+            inkTransitionEnterTimeout={450}
+            inkTransitionLeaveTimeout={300}
+            inkTransitionOverlap={150}
+            raised={true}
+            secondary={true}
+            style={
+                        Object {
+                                    "marginTop": "20px",
+                                  }
+            }
+            type="submit"
+>
+            Submit
+</withInk(withTooltip(Button))>,
+        ],
+        "onSubmit": [Function],
+        "padding": "0 30px 30px",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "autoFocus": true,
+            "className": "md-cell md-cell--12 md-cell--bottom form-field",
+            "component": [Function],
+            "id": "email",
+            "label": "Email",
+            "name": "email",
+            "placeholder": "Enter email address",
+            "required": true,
+            "type": "email",
+            "validate": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "className": "md-cell md-cell--12 md-cell--bottom form-field",
+            "component": [Function],
+            "id": "password",
+            "label": "Password",
+            "name": "password",
+            "placeholder": "Enter your password",
+            "required": true,
+            "style": Object {
+              "height": "90px",
+            },
+            "type": "password",
+            "validate": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Submit",
+            "className": "md-cell md-cell--12 md-cell--bottom",
+            "disabled": false,
+            "id": "submit",
+            "inkTransitionEnterTimeout": 450,
+            "inkTransitionLeaveTimeout": 300,
+            "inkTransitionOverlap": 150,
+            "raised": true,
+            "secondary": true,
+            "style": Object {
+              "marginTop": "20px",
+            },
+            "type": "submit",
+          },
+          "ref": null,
+          "rendered": "Submit",
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

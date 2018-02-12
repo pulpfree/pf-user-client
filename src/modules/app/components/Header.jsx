@@ -35,7 +35,7 @@ const NavLinks = ({location}) => {
       >{l.label}</NavLink>
     )
   })
-  return <nav className="App-nav">{ls}</nav>
+  return <nav className="app-nav">{ls}</nav>
 }
 NavLinks.propTypes = {
   location: PropTypes.object,
@@ -55,7 +55,7 @@ NavLinks.propTypes = {
 const Header = ({ props }) => {
   const { location } = props
   return (
-    <header>
+    <header className="app-header">
       <Toolbar
         colored
       >
@@ -64,8 +64,8 @@ const Header = ({ props }) => {
           className="app-logo"
           src={logo}
         />
-        <NavLinks location={location} />
       </Toolbar>
+      <NavLinks location={location} />
     </header>
   )
 }
